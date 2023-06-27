@@ -10,7 +10,7 @@
   <body>
     <header>
       <ul>
-           <a href="index.html">
+        <a href="index.html">
           <li>Home</li>
         </a>
         <a href="ContactForm.html">
@@ -30,13 +30,16 @@
         </a>
       </ul>
     </header>
-
     <div class="form">
-        <h2 id="home">
-        დავალება II 
-        </h2>
-    </div>
-  
+      <form action="action.php" method="get">
+        <label for="name">Name</label><br />
+        <input id="name" type="text" /> <br />
+        <label for="email">E-Mail</label> <br />
+        <input id="email" type="email" /> <br />
+        <label id="number" for="number">Phone Number</label> <br />
+        <input type="number" /> <br />
+        <button type="submit">Register</button>
+      </form>
     </div>
   </body>
 </html>
