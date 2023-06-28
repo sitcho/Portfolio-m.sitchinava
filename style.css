@@ -80,3 +80,20 @@ textarea {
   color: blue;
   text-align: center;
 }
+
+table {
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+table td,
+th,
+tr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}

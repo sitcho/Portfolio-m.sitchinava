@@ -25,15 +25,21 @@
         <a href="survey.html">
           <li>Survey</li>
         </a>
-        <a href="">
+        <a href="table.html">
           <li>Tables</li>
         </a>
       </ul>
     </header>
     <div class="form">
       <form action="action.php" method="get">
+        <label for="ageConf">Check if you Are you 18+</label>
+        <input id="ageConf" type="radio" /> <br />
+        <br />
         <label for="srv">Describe Youself:</label><br />
         <textarea name="srv" id="srv" cols="30" rows="10"></textarea><br />
+        <label for="sub">Newssletter Subscription</label>
+        <input id="sub" type="checkbox" /> <br />
+        <br />
         <button type="submit">SEND</button>
       </form>
     </div>
