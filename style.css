@@ -4,96 +4,46 @@
   box-sizing: border-box;
 }
 
-header ul {
-  width: auto;
-  height: 100px;
-  background-color: lightblue;
-  text-align: center;
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-color: black;
+  background-color: hsl(168deg 100% 29%);
+  height: 100vh;
+}
+
+
+.loginForm {
+  background-color: white;
+  padding: 25px 20px;
   border-radius: 5px;
-  border-style: solid;
-  border-width: 2px;
-}
-
-header ul li {
-  list-style: none;
-
-  padding: 3px;
-}
-
-header a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 1px;
-  background-color: lightgrey;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  margin: 3px;
-}
-
-header a:hover {
-  color: lightgrey;
-  background-color: black;
-  border-color: lightgrey;
-}
-
-.form {
-  margin-top: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: auto;
-  height: auto;
-  background-color: lightblue;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  padding: 10px;
+  flex-direction: column;
 }
 
-.form input,
-textarea {
+.loginForm form {
   width: 400px;
-  margin: 1px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.form button {
-  width: 80px;
-  height: 25px;
-  background-color: blue;
-  color: white;
+.loginForm form input,
+button {
+  margin: 5px;
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 5px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+.loginForm form button {
+  background-color: hsl(168deg 100% 29%);
   font-weight: bold;
-  border-radius: 5px;
-  border-color: white;
-  border-style: solid;
-  border-width: 1px;
-}
-
-#home {
-  color: blue;
-  text-align: center;
-}
-
-table {
-  width: 600px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  text-align: center;
-}
-
-table td,
-th,
-tr {
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
+  color: white;
+  bor
 }
